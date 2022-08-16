@@ -1,0 +1,89 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 320px;
+}
+
+.label {
+  color: rgb(8, 5, 28);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  margin: 10px 0;
+}
+
+.input {
+  border: 1px solid rgb(156, 155, 165);
+  border-radius: 4px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  padding: 10px;
+}
+
+.input:active,
+.input:focus {
+  outline-offset: 3px;
+  outline: rgb(110, 85, 230) solid 2px;
+  transition: color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s,
+    outline 0.1s ease-in-out 0s, outline-offset 0.1s ease-in-out 0s;
+}
+
+.input-error {
+  background-color: rgb(255, 236, 241);
+  border: 1px solid rgb(217, 10, 60);
+  color: red;
+}
+
+.input-error::placeholder {
+  color: red;
+}
+
+.error {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+
+.warning {
+  font-size: large;
+  font-weight: 100;
+}
+
+.submit {
+  align-self: center;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(38, 26, 145);
+  border: 1px solid rgb(38, 26, 145);
+  border-radius: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 3rem;
+  letter-spacing: -0.6px;
+  margin: 20px;
+  width: 10rem;
+}
+
+.submit:hover,
+.submit:focus {
+  color: rgb(8, 5, 28);
+  background-color: rgb(214, 216, 240);
+  border-color: rgb(214, 216, 240);
+}
+
+.submit:active,
+.submit:focus {
+  outline-offset: 3px;
+  outline: rgb(110, 85, 230) solid 2px;
+  transition: color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s,
+    outline 0.1s ease-in-out 0s, outline-offset 0.1s ease-in-out 0s;
+  z-index: 10;
+}

@@ -1,0 +1,51 @@
+.container {
+  border-radius: 5px;
+  box-shadow: rgb(12 12 13 / 10%) 0 1px 4px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 15px 20px;
+  width: fit-content;
+}
+
+.top-section {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.profile-icon {
+  border-radius: 50%;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.text {
+  color: #51606e;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: "Lato", sans-serif;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+.bottom-left {
+  align-items: flex-end;
+  border-right: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 360px) {
+  .container {
+    margin: 0 10px;
+    padding: 15px 10px;
+  }
+}

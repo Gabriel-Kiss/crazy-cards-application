@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "name": "Student Life",
+      "apr": 18.9,
+      "btod": 0,
+      "pod": 6,
+      "credit": 1200
+    },
+    {
+      "name": "Anywhere Card",
+      "apr": 33.9,
+      "btod": 0,
+      "pod": 0,
+      "credit": 300
+    },
+    {
+      "name": "Liquid Card",
+      "apr": 33.9,
+      "btod": 12,
+      "pod": 6,
+      "credit": 3000
+    }
+  ]
+}

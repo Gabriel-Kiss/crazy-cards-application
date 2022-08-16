@@ -1,0 +1,43 @@
+.card-container {
+  border: 1px solid #5b6b79;
+  border-radius: 25px;
+  box-shadow: rgb(12 12 13 / 10%) 0 1px 4px;
+  margin: 10px;
+  width: fit-content;
+  padding: 20px;
+}
+
+.header {
+  color: #51606e;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.text {
+  color: #51606e;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.selected {
+  transform: scale(1.04);
+  box-shadow: 5px 6px 5px 1px rgba(0 255 127 / 20%);
+  border: 1px solid rgb(0 255 127);
+}
+
+.check-mark {
+  font-size: 35px;
+  color: rgb(0 255 127);
+  position: absolute;
+  top: 3px;
+  right: 23px;
+}
+
+@media only screen and (max-width: 360px) {
+  .card-container {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,40 @@
+.outer-container {
+  background-color: rgb(246, 242, 241);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.inner-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: inherit;
+  max-width: 800px;
+  min-width: 360px;
+}
+
+.form-container {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  font-family: "Lato", sans-serif;
+}
+
+.text {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-top: 0;
+  color: rgb(8, 5, 28);
+}
+
+.title {
+  align-self: center;
+}
